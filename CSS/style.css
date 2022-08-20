@@ -1,0 +1,316 @@
+body{
+    background-color: #f0f2f5;
+}
+
+.title_section{
+    float: left;
+    width: 35%;
+    height: fit-content;
+    margin-top: 170px;
+    margin-left: 140px;
+}
+
+.title{
+    color: #1877f2;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 25px;
+    font-family:system-ui;
+    margin-bottom: 200px;
+}
+
+.signIn_section{
+    float: right;
+    width: 28%;
+    min-height: 300px;
+    background-color: white;
+    margin-top: 105px;
+    margin-right: 220px;
+    border-radius: 5px;
+    box-shadow: 0.5px 1px 5px rgb(0 0 0 /20%);
+}
+
+.signIn_table{
+    width: 94%;
+    margin: 0 3%;
+    margin-top: 15px;
+}
+
+input{
+    width: 100%;
+    height: 48px;
+    text-indent: 15px;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-style: groove;
+    font-size: 16px;
+    border-color:rgb(128 128  128/50%);
+    outline: invert;
+    outline-color: rgb(59, 186, 228);
+}
+
+.login_button{
+    font-family: system-ui;
+    width: 100%;
+    height: 44px;
+    margin-top: 10px;
+    background-color: #1977f3;
+    border-width: 0px;
+    border-radius: 5.5px;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input_password{
+    margin-top: 6px;
+}
+
+.a1{
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    margin-left: 32%;
+}
+
+.forget{
+    font-family: system-ui;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color: #1877f2;
+    width: fit-content;
+}
+
+.forget:hover{
+    text-decoration: underline;
+}
+
+.createNew_button{
+    width: 56%;
+    height: 50px;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #42b72a;
+    border-width: 0px;
+    border-radius: 5px;
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.title2{
+    text-align: center;
+    float: right;
+    width: 28%;
+    height: fit-content;
+    margin-top: 20px;
+    margin-right: 220px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+.title2 div span{
+    font-weight: bolder;
+}
+
+.signUp{
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    margin-left: 35%;
+    margin-right: 35%;
+    min-height: 540px;
+    margin-top: 25px;
+    border-radius: 9px;
+    box-shadow: 0.5px 1px 5px rgb(0 0 0 /20%);
+}
+
+.signUp_title{
+    font-family: system-ui;
+    font-size: 27px;
+    font-weight: bolder;
+    margin: 10px 0px 0px 9px;
+}
+
+.secondary_title{
+    color:gray;
+    margin-left: 9px;
+    margin-top: 2px;
+}
+
+.signUp_table{
+    width: 96%;
+    min-height: fit-content;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 12px;
+}
+
+.signUp_name{
+    background-color: #f5f6f8;
+    width: 92.5%;
+    height: 35px;
+    float: left;
+    outline: none;
+    color: #8e9095;
+    text-indent: 15px;
+    color: #000000;
+}
+
+.td{
+    width: 20%;
+}
+
+.signUp_email{
+    background-color: #f5f6f8;
+    width: 98.5%;
+    height: 35px;
+    outline: none;
+    color: #8e9095;
+    text-indent: 15px;
+    color: #000000;
+}
+
+.exit{
+    color: #595e65;
+    background-color: white;
+    border: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: 9px;
+    font-size: 35px;
+    font-weight: 500;
+    width: fit-content;
+    height: fit-content;
+}
+
+.birthday_title{
+    float: left;
+    height: 5px;
+    color: #8e9095; 
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+.question_icon{
+    margin-left: 7px;
+    float: left;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: #8e9095;
+    opacity: 70%;
+}
+
+.options{
+    background-color: #ffffff;
+    width: 31%;
+    height: 35px;
+    border-radius: 4px;
+    outline: none;
+    color: #000000;
+    border-width: 0.5px;
+    border-style: groove;
+    font-size: 14px;
+    border-color:rgb(128 128  128/50%);
+}
+
+.gender_section{
+    height: 35px;
+    border-width: 0.5px;
+    border-style: groove;
+    border-color: rgb(128 128  128/50%);
+    width: 31%;
+    float: left;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.span_gender{
+    float: left;
+    margin-left: 8px;
+    font-size: 18px;
+    font-family: system-ui;
+    color: #000000;
+    line-height: 35px;
+}
+
+.gender{
+    float: right;
+    margin-right: 8px;
+    margin-top: 11px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.pronoun_option{
+    width: 100%;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    border-width: 0.5px;
+    border-radius: 4px;
+    border-color: rgb(128 128  128/50%);
+    margin-top: 5px;
+}
+
+.pronoun_title{
+    color: gray;
+    margin-top: 3px;
+    font-family: system-ui;
+    font-size: 14px;
+}
+
+.genderOptional{
+    width: 100%;
+    height: 35px;
+    font-family: system-ui;
+    outline: none;
+    margin-top: 4px;
+    text-indent: 15px;
+}
+
+.final_title{
+    width: 100%;
+    color: gray;
+    font-family: system-ui;
+    font-size: 12px;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+
+.signUp_button{
+    width: 48%;
+    height: 35px;
+    background-color: #00a400;
+    color: white;
+    font-size: 19px;
+    font-family: system-ui;
+    font-weight: 700;
+    margin: 0 26%;
+    border-radius: 5px;
+    border-width: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.signUp_button:hover{
+    background-image: linear-gradient(40deg,#00a400,gray 90%);
+}
+
+#pronoun_option{
+    display: none;
+}

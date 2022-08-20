@@ -1,0 +1,229 @@
+body{
+    background-color: #f0f2f5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgb(128 128 128 /50%);
+}
+
+.title1{
+    color: #1876f2;
+    line-height: 58px;
+    font-family: system-ui;
+    font-size: 28px;
+    font-weight: 700;
+    float: left;
+    margin-left: 30px;
+}
+
+.input{
+    width: 200px;
+    height: 37px;
+    margin-right: 10px;
+    margin-top: 9.5px;
+    text-indent: 15px;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color:rgb(128 128  128/50%);
+    border-style: groove;
+    outline: invert;
+    font-size: 16px;
+    outline-color: rgb(59, 186, 228);
+}
+
+.input:hover{
+    border-color: gray;
+}
+
+.login_button{
+    width: 70px;
+    height: 39px;
+    margin-top: 7.8px;
+    margin-right: 10px;
+    background-color: #1b74e4;
+    border-width: 0px;
+    border-radius: 8px;
+    border-style: groove;
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: ease 0.7s;
+}
+
+.login_button:hover{
+    background-color: #2d72cc;
+}
+
+.forgotAccount{
+    display: block;
+    float: right;
+    line-height: 55px;
+    color: #3267ac;
+    text-decoration: none;
+    margin-right: 35px;
+    font-family: system-ui;
+}
+
+.forgotAccount:hover{
+    text-decoration: underline;
+}
+
+.find_section{
+    width: 38%;
+    height: 260px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 90px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow:0.5px 0.5px 2px 0.5px rgb(128 128 128/50%);
+}
+
+.title2{
+    font-family: system-ui;
+    font-size: 22px;
+    color: #162643;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.title3{
+    font-family: system-ui;
+    font-size: 18px;
+    color: black;
+    margin-left: 15px;
+}
+
+.find_input{
+    width: 94%;
+    height: 50px;
+    text-indent: 15px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color:rgb(128 128  128/50%);
+    border-style: groove;
+    margin:20px 3%;
+}
+
+.cancel_button{
+    width: 15%;
+    height: 35px;
+    color:black;
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(148, 148, 148);
+    border-width: 0px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.search_button{
+    width: 15%;
+    height: 35px;
+    color:white;
+    font-family: system-ui;
+    font-weight: 700;
+    background-color: #1876f2;
+    border-width: 0px;
+    border-radius:5px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    float: right;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+.search_button:hover{
+    background-color: #206fd6;
+}
+
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 1px 0px rgb(128 128 128 /50%);
+}
+
+.language_section{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 150px;
+    height: 40px;
+}
+
+.language_list{
+    list-style: none;
+}
+
+.language_list li{
+    float: left;
+    margin-right: 10px;
+    color: gray;
+    font-size: 15px;
+    font-family: system-ui;
+}
+
+.language_list li:hover{
+    text-decoration: underline;
+}
+
+.button{
+    width: 35px;
+    height: 20px;
+    border-color: rgb(128 128 128/30%);
+    border-width: 0.5px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui;
+    line-height: 0px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.button:hover{
+    background-color: rgb(128 128 128 /20%);
+}
+
+.setting_section{
+    width: 80%;
+    margin-left: 15%;
+}
+
+.setting_list{
+    list-style: none;
+}
+
+.setting_list li{
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    color: gray;
+    font-size: 15px;
+    font-family: system-ui;
+}
+
+.setting_list li:hover{
+    text-decoration: underline;
+}
